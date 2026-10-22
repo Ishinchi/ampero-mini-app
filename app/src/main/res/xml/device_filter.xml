@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Hotone Ampero Mini: VID 0x84EF, PID 0x0080 -->
+    <usb-device vendor-id="33007" product-id="128" />
+</resources>
