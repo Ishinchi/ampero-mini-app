@@ -10,6 +10,8 @@ import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
 import dev.umi.amperomini.midi.AmperoConnection
 import dev.umi.amperomini.midi.AmperoEvent
+import dev.umi.amperomini.protocol.EffectCatalog
+import dev.umi.amperomini.protocol.ParameterAddress
 import dev.umi.amperomini.protocol.PresetId
 import dev.umi.amperomini.protocol.PresetInfo
 import kotlinx.coroutines.CancellationException
@@ -33,6 +35,12 @@ data class UiState(
     val version: String? = null,
     val presets: List<PresetInfo> = emptyList(),
     val current: PresetId? = null,
+    val livePreset: PresetInfo? = null,
+    val modelNotice: String? = null,
+    val liveValues: Map<ParameterAddress, Int> = emptyMap(),
+    val sending: Boolean = false,
+    val selectionEpoch: Long = 0,
+
 ) {
     val connected: Boolean get() = status is Status.Loading || status == Status.Ready
 }
@@ -78,7 +86,7 @@ class MainViewModel(app: Application) : AndroidViewModel(app) {
                 launch {
                     conn.events.collect { event ->
                         when (event) {
-                            is AmperoEvent.PresetChanged -> _state.update { it.copy(current = event.id) }
+                            is AmperoEvent.PresetChanged -> _state.update { it.copy(current = event.id, liveValues = emptyMap(), livePreset = null, modelNotice = null, selectionEpoch = it.selectionEpoch + 1) }
                         }
                     }
                 }
@@ -99,16 +107,69 @@ class MainViewModel(app: Application) : AndroidViewModel(app) {
         }
     }
 
-    fun select(id: PresetId) {
+    fun setParameter(id: PresetId, epoch: Long, address: ParameterAddress, value: Int) {
         val conn = connection ?: return
+        val state = _state.value
+        if (state.status != Status.Ready || state.sending || state.current != id ||
+            state.selectionEpoch != epoch) return
+        val preset = state.livePreset ?: state.presets.firstOrNull { it.id == id } ?: return
+        val effect = preset.effects.firstOrNull { block -> block.parameters.any { it.address == address } } ?: return
+        val parameter = effect.parameters.first { it.address == address }
+        if (value !in 0..parameter.scale.maximum) return
+        val sync = effect.parameters.firstOrNull { it.name == parameter.scale.syncControl }
+        if (sync != null && (state.liveValues[sync.address] ?: sync.value) != 0) return
+        _state.update { it.copy(sending = true) }
         viewModelScope.launch {
             try {
-                conn.selectPreset(id)
-                _state.update { it.copy(current = id) }
+                conn.setParameter(address, value)
+                if (connection === conn) _state.update {
+                    it.copy(sending = false, liveValues = if (it.selectionEpoch == epoch) it.liveValues + (address to value) else it.liveValues)
+                }
             } catch (e: CancellationException) {
                 throw e
             } catch (e: Exception) {
-                disconnect(Status.Error(e.message ?: e.toString()))
+                if (connection === conn) disconnect(Status.Error(e.message ?: e.toString()))
+            }
+        }
+    }
+
+    fun changeModel(id: PresetId, epoch: Long, module: String, code: Int) {
+        val conn = connection ?: return
+        val state = _state.value
+        if (state.current != id || state.selectionEpoch != epoch || state.sending || state.status != Status.Ready) return
+        if (code !in EffectCatalog.choices(module)) return
+        _state.update { it.copy(sending = true, modelNotice = null) }
+        viewModelScope.launch {
+            try {
+                val actual = conn.changeModel(EffectCatalog.blockId(module), code)
+                if (connection === conn) _state.update {
+                    if (it.selectionEpoch != epoch) it.copy(sending = false)
+                    else {
+                        val matches = actual.id == id && actual.effects.any { fx -> fx.module == module && fx.modelCode == code }
+                        it.copy(current = actual.id, livePreset = actual, liveValues = emptyMap(), sending = false,
+                            modelNotice = if (matches) null else "Процессор сообщил о другом выборе. Показано его текущее состояние.")
+                    }
+                }
+            } catch (e: CancellationException) {
+                throw e
+            } catch (e: Exception) {
+                if (connection === conn) disconnect(Status.Error(e.message ?: e.toString()))
+            }
+        }
+    }
+
+    fun select(id: PresetId) {
+        val conn = connection ?: return
+        if (_state.value.sending) return
+        _state.update { it.copy(sending = true) }
+        viewModelScope.launch {
+            try {
+                conn.selectPreset(id)
+                if (connection === conn) _state.update { it.copy(current = id, liveValues = emptyMap(), livePreset = null, modelNotice = null, sending = false, selectionEpoch = it.selectionEpoch + 1) }
+            } catch (e: CancellationException) {
+                throw e
+            } catch (e: Exception) {
+                if (connection === conn) disconnect(Status.Error(e.message ?: e.toString()))
             }
         }
     }
@@ -118,7 +179,7 @@ class MainViewModel(app: Application) : AndroidViewModel(app) {
         session = null
         connection?.close()
         connection = null
-        _state.update { it.copy(status = status) }
+        _state.update { it.copy(status = status, liveValues = emptyMap(), livePreset = null, modelNotice = null, sending = false, selectionEpoch = it.selectionEpoch + 1) }
     }
 
     override fun onCleared() {

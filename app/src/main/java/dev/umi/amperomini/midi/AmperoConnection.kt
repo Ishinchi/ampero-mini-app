@@ -14,6 +14,7 @@ import dev.umi.amperomini.protocol.Ampero
 import dev.umi.amperomini.protocol.AmperoMessage
 import dev.umi.amperomini.protocol.MidiFramer
 import dev.umi.amperomini.protocol.PresetDownload
+import dev.umi.amperomini.protocol.ParameterAddress
 import dev.umi.amperomini.protocol.PresetId
 import dev.umi.amperomini.protocol.PresetInfo
 import kotlinx.coroutines.Dispatchers
@@ -88,6 +89,26 @@ class AmperoConnection private constructor(
 
     suspend fun selectPreset(id: PresetId) = transaction {
         send(Ampero.selectPreset(id))
+    }
+
+    suspend fun changeModel(block: Int, code: Int): PresetInfo = transaction {
+        send(Ampero.selectModel(block, code))
+        send(Ampero.currentReadRequest())
+        val header = awaitReply { it.cmd == Ampero.CMD_DATA && it.startsWith(0, 2, 0x12, 0) && it.body.size >= 6 }
+        val id = PresetId(header[4], header[5])
+        send(Ampero.currentStart(id))
+        val download = PresetDownload(id, live = true)
+        while (!download.finished) {
+            val reply = awaitReply {
+                it.startsWith(0, 2, 0x14, 0, id.bank, id.slot) || it.startsWith(0, 2, 0x16, 0, id.bank, id.slot)
+            }
+            download.accept(reply)?.let { send(Ampero.currentAck(id, it)) }
+        }
+        download.result().also { require(it.effects.size == 9) { "Неполный ответ процессора" } }
+    }
+
+    suspend fun setParameter(address: ParameterAddress, value: Int) = transaction {
+        send(Ampero.setParameter(address, value))
     }
 
     private suspend fun <T> transaction(block: suspend () -> T): T = lock.withLock {

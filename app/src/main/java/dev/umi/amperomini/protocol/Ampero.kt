@@ -13,7 +13,7 @@ data class PresetId(val bank: Int, val slot: Int) {
     }
 }
 
-data class PresetInfo(val id: PresetId, val name: String)
+data class PresetInfo(val id: PresetId, val name: String, val effects: List<PresetEffect> = emptyList())
 
 /**
  * A SysEx message from the device with the common header stripped:
@@ -66,6 +66,16 @@ object Ampero {
     private const val NAME_OFFSET = 4
     private const val NAME_LENGTH = 16
 
+    fun selectModel(block: Int, code: Int): ByteArray {
+        require(block in 1..9 && code in 0..0x3fff)
+        return sysex(MODEL, CMD_DATA, 0x10, block, 0, 1, code shr 7, code and 127)
+    }
+
+    fun currentReadRequest() = sysex(MODEL, CMD_READ, 0, 2, 0x0a, 0, 0, 0)
+    fun currentStart(id: PresetId) = sysex(MODEL, CMD_DATA, 0, 2, 0x13, 0, id.bank, id.slot, 1)
+    fun currentAck(id: PresetId, chunk: Int) =
+        sysex(MODEL, CMD_DATA, 0, 2, 0x15, 0, id.bank, id.slot, 0, chunk, 1)
+
     fun identityRequest() = sysex(MODEL_ANY, CMD_READ, 0x00, 0x00, 0x05, 0x00)
 
     fun presetReadRequest(id: PresetId) = sysex(MODEL, CMD_READ, 0x00, 0x02, 0x08, 0x00, id.bank, id.slot)
@@ -77,6 +87,15 @@ object Ampero {
 
     /** Bank select (CC 0) followed by Program Change, MIDI channel 1. */
     fun selectPreset(id: PresetId) = bytes(0xB0, 0x00, id.bank, 0xC0, id.slot)
+
+    /** Live knob write, verified against captures 04_param and 08_params. */
+    fun setParameter(address: ParameterAddress, value: Int): ByteArray {
+        require(value in 0..0x3fff)
+        require(address.block in 1..9)
+        require(address.model in 0..0x3fff && address.index in 0..14)
+        return sysex(MODEL, CMD_DATA, 0x10, address.block, 0x00, 0x02,
+            address.model shr 7, address.model and 127, address.index, value shr 7, value and 127)
+    }
 
     fun parse(message: ByteArray): AmperoMessage? {
         if (message.size < 10) return null
@@ -103,7 +122,7 @@ object Ampero {
         } else {
             ""
         }
-        return PresetInfo(id, name)
+        return PresetInfo(id, name, EffectCatalog.decode(blob))
     }
 
     private fun sysex(model: String, cmd: Int, vararg body: Int): ByteArray {
@@ -125,19 +144,26 @@ object Ampero {
 }
 
 /** Collects the chunked reply that follows [Ampero.presetReadStart] for one preset. */
-class PresetDownload(private val id: PresetId) {
+class PresetDownload(private val id: PresetId, private val live: Boolean = false) {
     private val nibbles = ByteArrayOutputStream()
 
+    private var nextChunk = 0
     var finished = false
         private set
 
     /** Takes a reply from the device; returns the chunk number to acknowledge, or null. */
     fun accept(message: AmperoMessage): Int? {
-        if (message.isPresetChunk(id)) {
+        if (message.cmd != Ampero.CMD_DATA || finished) return null
+        if (message.startsWith(0, 2, if (live) 0x14 else 0x0e, 0, id.bank, id.slot)) {
+            require(message.body.size > 8 && Ampero.chunkIndex(message) == nextChunk++)
+            require(nibbles.size() + message.body.size - 8 <= 16384)
             nibbles.write(Ampero.chunkData(message))
             return Ampero.chunkIndex(message)
         }
-        if (message.isPresetEnd(id)) finished = true
+        if (message.startsWith(0, 2, if (live) 0x16 else 0x10, 0, id.bank, id.slot)) {
+            require(message.body.size >= 8 && message[7] == nextChunk && nextChunk > 0)
+            finished = true
+        }
         return null
     }
 

@@ -1,0 +1,317 @@
+FX1	0	Comprosso	1*=Sustain	2*=Output
+FX1	1	Squeezer	1*=Threshold	2*=Ratio	3*=Output	4*=Attack	5*=Release	6*=Tone	7*=Blend
+FX1	2	Affinity Boost	1*=Gain	2*=Volume	3*=Bass	4*=Treble
+FX1	3	FET Boost	1*=Bass	2*=Treble	3*=Volume	4=Low Cut
+FX1	4	Enhancer	1=+3dB	2=Bright	3*=Volume
+FX1	5	Smart Gate	1*=Threshold
+FX1	6	Fast Gate	1*=Threshold	2=Mode
+FX1	32	AC Sim	1*=Body	2*=Top	3*=Volume	4=Mode
+FX1	33	Toucher	1*=Sens	2*=Range	3*=Q	4*=Mix	5=Mode
+FX1	34	Crier	1*=Depth	2*=Rate	3*=Volume	4*=Low	5*=Q	6*=High	7=Sync
+FX1	35	Voxy Wah	1*=Range	2*=Q	3*=Volume
+FX1	36	Cry Wah	1*=Range	2*=Q	3*=Volume
+FX1	37	Bass Press	1*=Range	2*=Q	3*=Volume
+FX1	38	Clean Octa	1*=Low Oct	2*=High Oct	3*=Dry
+FX1	39	Harmony	1=Hi Pitch	2=Low Pitch	3*=Dry	4*=Hi Volume	5*=Low Volume
+FX1	40	Telephone Line	1*=Noise	2*=Shake
+FX1	41	Satisfaction	1*=Saturation	2*=Mix	3*=Output	4*=High Cut
+FX1	42	Path Filter	1*=Step 1	2*=Step 2	3*=Step 3	4*=Step 4	5*=Rate	6=Sync
+FX1	43	Bit Krusher	1*=Mix	2*=Krush	3*=Bit	4*=Hi Cut	5*=Lo Cut
+FX1	44	Ring Mod	1*=Mix	2*=Freq	3=Fine	4*=Tone
+FX1	45	Classic PS	1=Range	2*=Position	3*=Mix	4*=Level
+FX1	64	Green Drive	1*=Gain	2*=Tone	3*=Volume
+FX1	65	Super Drive	1*=Gain	2*=Tone	3*=Volume
+FX1	66	Screamood	1*=Gain	2*=Tone	3*=Volume	4=Fat	5=Air
+FX1	67	Zen Garden	1*=Gain	2*=Tone	3*=Volume	4*=Voice
+FX1	68	Big Pie	1*=Sustain	2*=Tone	3*=Volume
+FX1	69	Face Fuzz	1*=Fuzz	2*=Volume
+FX1	70	Bend Fuzz	1*=Fuzz	2*=Volume
+FX1	71	Black Tail	1*=Gain	2*=Filter	3*=Volume
+FX1	72	Smooth Dist	1*=Gain	2*=Tone	3*=Volume
+FX1	73	Governor	1*=Gain	2*=Volume	3*=Bass	4*=Middle	5*=Treble
+FX1	74	Crunchist	1*=Gain	2*=Tone	3*=Volume
+FX1	75	Bass Crusher	1*=Gain	2*=Blend	3*=Volume	4*=Bass	5*=Treble
+FX1	76	Solid Steel	1*=Gain	2*=Tone	3*=Volume	4=Mode	5*=Blend
+FX1	77	Magic T	1*=Gain	2*=Volume	3*=Bass	4*=Treble	5=Mode
+FX1	78	Blues Butter	1*=Gain	2*=Tone	3*=Volume
+FX1	79	Dr. Blues	1*=Gain	2*=Tone	3*=Volume
+FX1	128	Aozora Chorus	1*=Depth	2*=Rate	3*=Tone	4=Sync
+FX1	129	Grand Choruium	1*=Depth	2*=Rate	3*=E. Level	4=Sync
+FX1	130	Liquid C	1=Mode
+FX1	131	Choruium B	1*=Depth	2*=Rate	3*=E.Level	4=Sync
+FX1	132	Detune	1=Range	2*=Wet	3*=Dry
+FX1	133	Jetter	1*=Depth	2*=Rate	3*=Pre Delay	4*=Feedback	5=Sync
+FX1	134	Jetter B	1*=Depth	2*=Rate	3*=Pre Delay	4*=Feedback	5=Sync
+FX1	135	Pulser	1*=Depth	2*=Rate	3=Sync
+FX1	136	Grand Vibrato	1*=Depth	2*=Rate	3*=Volume	4=Sync
+FX1	137	90 Phaser	1*=Rate	2=Sync
+FX1	138	Green Phaser	1*=Depth	2*=Rate	3=Sync
+FX1	139	Revolver	1*=Depth	2*=Rate	3*=Volume	4=Mode	5=Sync
+FX1	140	Helicopter	1*=Depth	2*=Rate	3=Sync
+FX1	141	Custom Trem	1*=Depth	2*=Rate	3*=Volume	4*=Color	5=Shape	6*=Bias	7=Sync
+FX1	142	Sweller	1=Attack	2=Curve
+FX1	143	Gated Boost	1*=Boost	2*=Gate	3*=Low Cut
+FX1	144	Pitch Shift	1=Pitch	2*=Volume	3*=Position	4*=Dry
+FX1	145	Precise Attack	1*=Gain	2*=Tone	3*=Volume	4=Attack	5*=Gate
+FX1	146	Sound Clone 1	1*=Gain	2*=VOL	3*=Bass	4*=Middle	5*=Treble
+FX1	147	Sound Clone 2	1*=Gain	2*=VOL	3*=Bass	4*=Middle	5*=Treble
+FX1	148	Sound Clone 3	1*=Gain	2*=VOL	3*=Bass	4*=Middle	5*=Treble
+FX1	149	Sound Clone 4	1*=Gain	2*=VOL	3*=Bass	4*=Middle	5*=Treble
+FX1	150	Sound Clone 5	1*=Gain	2*=VOL	3*=Bass	4*=Middle	5*=Treble
+FX2	0	Green Drive	1=Gain|100|0|1|||	2=Tone|100|0|1|||	3=Volume|100|0|1|||
+FX2	1	Super Drive	1=Gain|100|0|1|||	2=Tone|100|0|1|||	3=Volume|100|0|1|||
+FX2	2	Screamood	1=Gain|100|0|1|||	2=Tone|100|0|1|||	3=Volume|100|0|1|||	4=Fat|1|0|1|Выкл~Вкл||	5=Air|1|0|1|Выкл~Вкл||
+FX2	3	Zen Garden	1=Gain|100|0|1|||	2=Tone|100|0|1|||	3=Volume|100|0|1|||	4=Voice|100|0|1|||
+FX2	4	Big Pie	1=Sustain|100|0|1|||	2=Tone|100|0|1|||	3=Volume|100|0|1|||
+FX2	5	Face Fuzz	1=Fuzz|100|0|1|||	2=Volume|100|0|1|||
+FX2	6	Bend Fuzz	1=Fuzz|100|0|1|||	2=Volume|100|0|1|||
+FX2	7	Black Tail	1=Gain|100|0|1|||	2=Filter|100|0|1|||	3=Volume|100|0|1|||
+FX2	8	Smooth Dist	1=Gain|100|0|1|||	2=Tone|100|0|1|||	3=Volume|100|0|1|||
+FX2	9	Governor	1=Gain|100|0|1|||	2=Volume|100|0|1|||	3=Bass|100|0|1|||	4=Middle|100|0|1|||	5=Treble|100|0|1|||
+FX2	10	Crunchist	1=Gain|100|0|1|||	2=Tone|100|0|1|||	3=Volume|100|0|1|||
+FX2	11	Bass Crusher	1=Gain|100|0|1|||	2=Blend|100|0|1|||	3=Volume|100|0|1|||	4=Bass|100|0|1|||	5=Treble|100|0|1|||
+FX2	12	Solid Steel	1=Gain|100|0|1|||	2=Tone|100|0|1|||	3=Volume|100|0|1|||	4=Mode|2|0|1|Normal~Scoop~Edge||	5=Blend|100|0|1|||
+FX2	13	Magic T	1=Gain|100|0|1|||	2=Volume|100|0|1||Sync|	3=Bass|100|0|1|||	4=Treble|100|0|1|||	5=Mode|2|0|1|I~II~III||
+FX2	14	Blues Butter	1=Gain|100|0|1|||	2=Tone|100|0|1|||	3=Volume|100|0|1|||
+FX2	15	Dr. Blues	1=Gain|100|0|1|||	2=Tone|100|0|1|||	3=Volume|100|0|1|||
+FX2	48	Comprosso	1=Sustain|100|0|1|||	2=Output|100|0|1|||
+FX2	49	Squeezer	1=Threshold|100|0|1|||	2=Ratio|100|0|1|||	3=Output|100|0|1|||	4=Attack|100|0|1|||	5=Release|100|0|1|||	6=Tone|100|0|1|||	7=Blend|100|0|1|||
+FX2	50	Affinity Boost	1=Gain|100|0|1|||	2=Volume|100|0|1|||	3=Bass|100|0|1|||	4=Treble|100|0|1|||
+FX2	51	FET Boost	1=Bass|100|0|1|||	2=Treble|100|0|1|||	3=Volume|100|0|1|||	4=Low Cut|1|0|1|Выкл~Вкл||
+FX2	52	Enhancer	1=+3dB|1|0|1|Выкл~Вкл||	2=Bright|1|0|1|Выкл~Вкл||	3=Volume|100|0|1|||
+FX2	53	Smart Gate	1=Threshold|100|0|1|||
+FX2	54	Fast Gate	1=Threshold|100|0|1|||	2=Mode|1|0|1|I~II||
+FX2	80	AC Sim	1=Body|100|0|1|||	2=Top|100|0|1|||	3=Volume|100|0|1|||	4=Mode|3|0|1|Standard~Jumbo~Enhanced~Piezo||
+FX2	81	Toucher	1=Sens|100|0|1|||	2=Range|100|0|1|||	3=Q|100|0|1|||	4=Mix|100|0|1|||	5=Mode|1|0|1|Guitar~Bass||
+FX2	82	Crier	1=Depth|100|0|1|||	2=Rate|100|0|1||Sync|	3=Volume|100|0|1|||	4=Low|100|0|1|||	5=Q|100|0|1|||	6=High|100|0|1|||	7=Sync|1|0|1|Выкл~Вкл||
+FX2	83	Voxy Wah	1=Range|100|0|1|||	2=Q|100|0|1|||	3=Volume|100|0|1|||
+FX2	84	Cry Wah	1=Range|100|0|1|||	2=Q|100|0|1|||	3=Volume|100|0|1|||
+FX2	85	Bass Press	1=Range|100|0|1|||	2=Q|100|0|1|||	3=Volume|100|0|1|||
+FX2	86	Clean Octa	1=Low Oct|100|0|1|||	2=High Oct|100|0|1|||	3=Dry|100|0|1|||
+FX2	87	Harmony	1=Hi Pitch|24|0|1|||	2=Low Pitch|24|0|1|||	3=Dry|100|0|1|||	4=Hi Volume|100|0|1|||	5=Low Volume|100|0|1|||
+FX2	88	Telephone Line	1=Noise|100|0|1|||	2=Shake|100|0|1|||
+FX2	89	Satisfaction	1=Saturation|100|0|1|||	2=Mix|100|0|1|||	3=Output|100|0|1|||	4=High Cut|100|0|1|||
+FX2	90	Path Filter	1=Step 1|100|0|1|||	2=Step 2|100|0|1|||	3=Step 3|100|0|1|||	4=Step 4|100|0|1|||	5=Rate|100|0|1||Sync|	6=Sync|1|0|1|Выкл~Вкл||
+FX2	91	Bit Krusher	1=Mix|100|0|1|||	2=Krush|100|0|1|||	3=Bit|100|0|1|||	4=Hi Cut|100|0|1|||	5=Lo Cut|100|0|1|||
+FX2	92	Ring Mod	1=Mix|100|0|1|||	2=Freq|100|0|1|||	3=Fine|100|-50|1|||	4=Tone|100|0|1|||
+FX2	93	Classic PS	1=Range|5|0|1|-2 Oct~-1 Oct~+1 Oct~+2 Oct~+/-1Oct~+/-2Oct||	2=Position|100|0|1|||	3=Mix|100|0|1|||	4=Level|100|0|1|||
+FX2	112	Aozora Chorus	1=Depth|100|0|1|||	2=Rate|100|0|1||Sync|	3=Tone|100|0|1|||	4=Sync|1|0|1|Выкл~Вкл||
+FX2	113	Grand Choruium	1=Depth|100|0|1|||	2=Rate|100|0|1||Sync|	3=Volume|100|0|1|||	4=Sync|1|0|1|Выкл~Вкл||
+FX2	114	Liquid C	1=Mode|3|0|1|1~2~3~4||
+FX2	115	Choruium B	1=Depth|100|0|1|||	2=Rate|100|0|1||Sync|	3=E.Level|100|0|1|||	4=Sync|1|0|1|Выкл~Вкл||
+FX2	116	Detune	1=Range|100|-50|1|||	2=Wet|100|0|1|||	3=Dry|100|0|1|||
+FX2	117	Jetter	1=Depth|100|0|1|||	2=Rate|100|0|1||Sync|	3=Pre Delay|100|0|1|||	4=Feedback|100|0|1|||	5=Sync|1|0|1|Выкл~Вкл||
+FX2	118	Jetter B	1=Depth|100|0|1|||	2=Rate|100|0|1||Sync|	3=Pre Delay|100|0|1|||	4=Feedback|100|0|1|||	5=Sync|1|0|1|Выкл~Вкл||
+FX2	119	Pulser	1=Depth|100|0|1|||	2=Rate|100|0|1||Sync|	3=Sync|1|0|1|Выкл~Вкл||
+FX2	120	Grand Vibrato	1=Depth|100|0|1|||	2=Rate|100|0|1||Sync|	3=Volume|100|0|1|||	4=Sync|1|0|1|Выкл~Вкл||
+FX2	121	90 Phaser	1=Rate|100|0|1||Sync|	2=Sync|1|0|1|Выкл~Вкл||
+FX2	122	Green Phaser	1=Depth|100|0|1|||	2=Rate|100|0|1||Sync|	3=Sync|1|0|1|Выкл~Вкл||
+FX2	123	Revolver	1=Depth|100|0|1|||	2=Rate|100|0|1||Sync|	3=Volume|100|0|1|||	4=Mode|1|0|1|Chorus~Vibrato||	5=Sync|1|0|1|Выкл~Вкл||
+FX2	124	Helicopter	1=Depth|100|0|1|||	2=Rate|100|0|1||Sync|	3=Sync|1|0|1|Выкл~Вкл||
+FX2	125	Custom Trem	1=Depth|100|0|1|||	2=Rate|100|0|1||Sync|	3=Volume|100|0|1|||	4=Color|100|0|1|||	5=Shape|3|0|1|Sine~Triangle~Square~Sawtooth||	6=Bias|100|0|1|||	7=Sync|1|0|1|Выкл~Вкл||
+FX2	126	Sweller	1=Attack|3920|80|1|||	2=Curve|2|0|1|Line~Exp~Log||
+FX2	127	Gated Boost	1=Boost|100|0|1|||	2=Gate|100|0|1|||	3=Low Cut|100|0|1|||
+FX2	128	Pitch Shift	1=Pitch|48|-24|1|||	2=Volume|100|0|1|||	3=Position|100|0|1|||	4=Dry|100|0|1|||
+FX2	129	Precise Attack	1=Gain|100|0|1|||	2=Tone|100|0|1|||	3=Volume|100|0|1|||	4=Attack|5|1|1|||	5=Gate|100|0|1|||
+FX2	130	Sound Clone 1	1=Gain|100|0|1|||	2=VOL|100|0|1|||	3=Bass|100|0|1|||	4=Middle|100|0|1|||	5=Treble|100|0|1|||
+FX2	131	Sound Clone 2	1=Gain|100|0|1|||	2=VOL|100|0|1|||	3=Bass|100|0|1|||	4=Middle|100|0|1|||	5=Treble|100|0|1|||
+FX2	132	Sound Clone 3	1=Gain|100|0|1|||	2=VOL|100|0|1|||	3=Bass|100|0|1|||	4=Middle|100|0|1|||	5=Treble|100|0|1|||
+FX2	133	Sound Clone 4	1=Gain|100|0|1|||	2=VOL|100|0|1|||	3=Bass|100|0|1|||	4=Middle|100|0|1|||	5=Treble|100|0|1|||
+FX2	134	Sound Clone 5	1=Gain|100|0|1|||	2=VOL|100|0|1|||	3=Bass|100|0|1|||	4=Middle|100|0|1|||	5=Treble|100|0|1|||
+AMP	0	Tweed Lux	1*=Volume	2*=Tone	3*=Output
+AMP	1	Baseman Norm	1*=Volume	2*=Presence	3*=Output	4*=Bass	5*=Middle	6*=Treble
+AMP	2	Black Twin	1*=Gain	2*=Master	3*=Bass	4*=Middle	5*=Treble	6=Bright
+AMP	3	Voxy 30HW Norm	1*=Volume	2*=Tone Cut	3*=Master	4=Bright
+AMP	4	Jazz Clean	1*=Volume	2=Bright	3*=Bass	4*=Middle	5*=Treble
+AMP	5	Emperor Clean	1*=Gain	2*=Presence	3*=Master	4*=Bass	5*=Middle	6*=Treble
+AMP	6	Superstar Clean	1*=Gain	2*=Presence	3*=Master	4*=Bass	5*=Middle	6*=Treble
+AMP	7	Glacian Clean	1*=Gain	2*=Presence	3*=Master	4*=Bass	5*=Treble	6=Bright
+AMP	8	Tweed Prince	1*=Volume	2*=Tone	3*=Output
+AMP	9	Black Prince	1*=Volume	2*=Output	3*=Bass	4*=Treble
+AMP	48	Baseman Bright	1*=Volume	2*=Presence	3*=Output	4*=Bass	5*=Middle	6*=Treble
+AMP	49	Voxy 30HW TB	1*=Volume	2*=Tone Cut	3*=Master	4*=Bass	5*=Treble	6=Char
+AMP	50	Emperor Drive	1*=Gain	2*=Presence	3*=Master	4*=Bass	5*=Middle	6*=Treble
+AMP	51	Superstar Drive	1*=Gain	2*=Drive	3*=Master	4*=Bass	5*=Middle	6*=Treble
+AMP	52	Marshell 45	1*=Volume	2*=Presence	3*=Output	4*=Bass	5*=Middle	6*=Treble
+AMP	53	Marshell 45+	1*=Volume	2*=Presence	3*=Output	4*=Bass	5*=Middle	6*=Treble
+AMP	54	Marshell 45 Jump	1*=Gain	2*=Presence	3*=Output	4*=Bass	5*=Middle	6*=Treble
+AMP	55	Marshell 50	1*=Volume	2*=Presence	3*=Output	4*=Bass	5*=Middle	6*=Treble
+AMP	56	Marshell 50+	1*=Volume	2*=Presence	3*=Output	4*=Bass	5*=Middle	6*=Treble
+AMP	57	Marshell 50 Jump	1*=Gain	2*=Presence	3*=Output	4*=Bass	5*=Middle	6*=Treble
+AMP	58	Hot Kitty Drive	1*=Gain	2*=Presence	3*=Master	4*=Bass	5*=Edge	6*=Treble
+AMP	59	Messe IIC+ 1	1*=Gain	2*=Presence	3*=Master	4*=Bass	5*=Middle	6*=Treble
+AMP	60	Messe IIC+ 2	1*=Gain	2*=Presence	3*=Master	4*=Bass	5*=Middle	6*=Treble
+AMP	61	Messe IIC+ 3	1*=Gain	2*=Presence	3*=Master	4*=Bass	5*=Middle	6*=Treble
+AMP	62	Soloist 100 Crunch	1*=Gain	2*=Presence	3*=Master	4*=Bass	5*=Middle	6*=Treble
+AMP	63	Marshell 800	1*=Gain	2*=Presence	3*=Master	4*=Bass	5*=Middle	6*=Treble
+AMP	64	Fryman B1	1*=Gain	2*=Presence	3*=Master	4*=Bass	5*=Middle	6*=Treble
+AMP	65	Fryman B2	1*=Gain	2*=Presence	3*=Master	4*=Bass	5*=Middle	6*=Treble
+AMP	66	Glacian Drive	1*=Gain	2*=Presence	3*=Master	4*=Bass	5*=Middle	6*=Treble
+AMP	96	Marshell 900	1*=Gain	2*=Presence	3*=Master	4*=Bass	5*=Middle	6*=Treble
+AMP	97	Dizzle VH B	1*=Gain	2*=Presence	3*=Master	4*=Bass	5*=Middle	6*=Treble
+AMP	98	Dizzle VH S	1*=Gain	2*=Presence	3*=Master	4*=Bass	5*=Middle	6*=Treble
+AMP	99	Engle Saga 1	1*=Gain	2*=Presence	3*=Master	4*=Bass	5*=Middle	6*=Treble
+AMP	100	Engle Saga 2	1*=Gain	2*=Presence	3*=Master	4*=Bass	5*=Middle	6*=Treble
+AMP	101	Fryman HB	1*=Gain	2*=Presence	3*=Master	4*=Bass	5*=Middle	6*=Treble
+AMP	102	Fryman HB+	1*=Gain	2*=Presence	3*=Master	4*=Bass	5*=Middle	6*=Treble
+AMP	103	Eddie 51	1*=Gain	2*=Presence	3*=Master	4*=Bass	5*=Middle	6*=Treble
+AMP	104	Soloist 100 Lead	1*=Gain	2*=Presence	3*=Master	4*=Bass	5*=Middle	6*=Treble
+AMP	105	Messe IV Lead 1	1*=Gain	2*=Presence	3*=Master	4*=Bass	5*=Middle	6*=Treble
+AMP	106	Messe IV Lead 2	1*=Gain	2*=Presence	3*=Master	4*=Bass	5*=Middle	6*=Treble
+AMP	107	Messe IV Lead 3	1*=Gain	2*=Presence	3*=Master	4*=Bass	5*=Middle	6*=Treble
+AMP	108	Tangerine R100	1*=Gain	2*=Master	3*=Bass	4*=Middle	5*=Treble
+AMP	109	Rector Dual V	1*=Gain	2*=Presence	3*=Master	4*=Bass	5*=Middle	6*=Treble
+AMP	110	Rector Dual M	1*=Gain	2*=Presence	3*=Master	4*=Bass	5*=Middle	6*=Treble
+AMP	111	Dizzle VH+ B	1*=Gain	2*=Presence	3*=Master	4*=Bass	5*=Middle	6*=Treble
+AMP	112	Dizzle VH+ S	1*=Gain	2*=Presence	3*=Master	4*=Bass	5*=Middle	6*=Treble
+AMP	113	Boger XT Blue M	1*=Gain	2*=Presence	3*=Master	4*=Bass	5*=Middle	6*=Treble
+AMP	160	Alchemy Pre	1*=Volume	2=Bright	3*=Bass	4*=Middle	5*=Treble
+AMP	161	Ampage Classic	1*=Gain	2*=Bass	3*=Middle	4=Midrange	5*=Treble	6*=Master
+AMP	162	Ampage Flip	1*=Volume	2*=Bass	3*=Treble
+AMP	163	Voxy Bass	1*=Volume	2*=Bass	3*=Treble
+AMP	164	Messe Bass 400	1*=Volume	2*=Master	3*=Bass	4*=Middle	5*=Treble
+AMP	192	Acoustic Preamp 1	1*=Volume	2*=Tone	3*=Balance	4*=EQ Freq	5*=EQ Q	6*=EQ Gain
+AMP	193	Acoustic Preamp 2	1*=Volume	2*=Tone	3*=Balance	4*=EQ Freq	5*=EQ Q	6*=EQ Gain
+AMP	194	Match 30 Clean	1*=Volume	2*=Tone Cut	3*=Master	4*=Bass	5*=Treble
+AMP	195	Sound Clone 6	1*=Gain	2*=VOL	3*=Bass	4*=Middle	5*=Treble
+AMP	196	Sound Clone 7	1*=Gain	2*=VOL	3*=Bass	4*=Middle	5*=Treble
+AMP	197	Sound Clone 8	1*=Gain	2*=VOL	3*=Bass	4*=Middle	5*=Treble
+AMP	198	Sound Clone 9	1*=Gain	2*=VOL	3*=Bass	4*=Middle	5*=Treble
+AMP	199	Sound Clone 10	1*=Gain	2*=VOL	3*=Bass	4*=Middle	5*=Treble
+FX3	0	Aozora Chorus	1=Depth|100|0|1|||	2=Rate|100|0|1||Sync|	3=Tone|100|0|1|||	4=Sync|1|0|1|Выкл~Вкл||
+FX3	1	Grand Choruium	1=Depth|100|0|1|||	2=Rate|100|0|1||Sync|	3=E. Level|100|0|1|||	4=Sync|1|0|1|Выкл~Вкл||
+FX3	2	Liquid C	1=Mode|3|0|1|1~2~3~4||
+FX3	3	Choruium B	1=Depth|100|0|1|||	2=Rate|100|0|1||Sync|	3=E.Level|100|0|1|||	4=Sync|1|0|1|Выкл~Вкл||
+FX3	4	Detune	1=Range|100|-50|1|||	2=Wet|100|0|1|||	3=Dry|100|0|1|||
+FX3	5	Jetter	1=Depth|100|0|1|||	2=Rate|100|0|1||Sync|	3=Pre Delay|100|0|1|||	4=Feedback|100|0|1|||	5=Sync|1|0|1|Выкл~Вкл||
+FX3	6	Jetter B	1=Depth|100|0|1|||	2=Rate|100|0|1||Sync|	3=Pre Delay|100|0|1|||	4=Feedback|100|0|1|||	5=Sync|1|0|1|Выкл~Вкл||
+FX3	7	Jetter N	1=Depth|100|0|1|||	2=Rate|100|0|1||Sync|	3=Pre Delay|100|0|1|||	4=Feedback|100|0|1|||	5=Sync|1|0|1|Выкл~Вкл||
+FX3	8	Trem Jet	1=Flg Depth|100|0|1|||	2=Flg Rate|100|0|1||Flg Sync|	3=Feedback|100|0|1|||	4=Trm Depth|100|0|1|||	5=Trm Rate|100|0|1||Trm Sync|	5=Flg Sync|1|0|1|Выкл~Вкл||	7=Trm Sync|1|0|1|Выкл~Вкл||
+FX3	9	Pulser	1=Depth|100|0|1|||	2=Rate|100|0|1||Sync|	3=Sync|1|0|1|Выкл~Вкл||
+FX3	10	Grand Vibrato	1=Depth|100|0|1|||	2=Rate|100|0|1||Sync|	3=Volume|100|0|1|||	4=Sync|1|0|1|Выкл~Вкл||
+FX3	11	Shiver T	1=Sens|100|0|1|||	2=Rate|100|0|1||Sync|	3=Output|100|0|1|||	4=Sync|1|0|1|Выкл~Вкл||
+FX3	12	90 Phaser	1=Rate|100|0|1||Sync|	2=Sync|1|0|1|Выкл~Вкл||
+FX3	13	Green Phaser	1=Depth|100|0|1|||	2=Rate|100|0|1||Sync|	3=Sync|1|0|1|Выкл~Вкл||
+FX3	14	Revolver	1=Depth|100|0|1|||	2=Rate|100|0|1||Sync|	3=Volume|100|0|1|||	4=Mode|1|0|1|Chorus~Vibrato||	5=Sync|1|0|1|Выкл~Вкл||
+FX3	15	Helicopter	1=Depth|100|0|1|||	2=Rate|100|0|1||Sync|	3=Sync|1|0|1|Выкл~Вкл||
+FX3	16	Custom Trem	1=Depth|100|0|1|||	2=Rate|100|0|1||Sync|	3=Volume|100|0|1|||	4=Color|100|0|1|||	5=Shape|3|0|1|Sine~Triangle~Square~Sawtooth||	6=Bias|100|0|1|||	7=Sync|1|0|1|Выкл~Вкл||
+FX3	64	Acoustic Refiner	1=Shape|100|0|1|||
+FX3	65	AC Sim	1=Body|100|0|1|||	2=Top|100|0|1|||	3=Volume|100|0|1|||	4=Mode|3|0|1|Standard~Jumbo~Enhanced~Piezo||
+FX3	66	Toucher	1=Sens|100|0|1|||	2=Range|100|0|1|||	3=Q|100|0|1|||	4=Mix|100|0|1|||	5=Mode|1|0|1|Guitar~Bass||
+FX3	67	Crier	1=Depth|100|0|1|||	2=Rate|100|0|1||Sync|	3=Volume|100|0|1|||	4=Low|100|0|1|||	5=Q|100|0|1|||	6=High|100|0|1|||	7=Sync|1|0|1|Выкл~Вкл||
+FX3	68	Clean Octa	1=Low Oct|100|0|1|||	2=High Oct|100|0|1|||	3=Dry|100|0|1|||
+FX3	69	Harmony	1=Hi Pitch|24|0|1|||	2=Low Pitch|24|0|1|||	3=Dry|100|0|1|||	4=Hi Volume|100|0|1|||	5=Low Volume|100|0|1|||
+FX3	70	Telephone Line	1=Noise|100|0|1|||	2=Shake|100|0|1|||
+FX3	71	Satisfaction	1=Saturation|100|0|1|||	2=Mix|100|0|1|||	3=Output|100|0|1|||	4=High Cut|100|0|1|||
+FX3	72	Path Filter	1=Step 1|100|0|1|||	2=Step 2|100|0|1|||	3=Step 3|100|0|1|||	4=Step 4|100|0|1|||	5=Rate|100|0|1||Sync|	6=Sync|1|0|1|Выкл~Вкл||
+FX3	73	Bit Krusher	1=Mix|100|0|1|||	2=Krush|100|0|1|||	3=Bit|100|0|1|||	4=Hi Cut|100|0|1|||	5=Lo Cut|100|0|1|||
+FX3	74	Ring Mod	1=Mix|100|0|1|||	2=Freq|100|0|1|||	3=Fine|100|-50|1|||	4=Tone|100|0|1|||
+FX3	75	Sweller	1=Attack|3920|80|1|||	2=Curve|2|0|1|Line~Exp~Log||
+FX3	76	Classic PS	1=Range|5|0|1|-2 Oct~-1 Oct~+1 Oct~+2 Oct~+/-1Oct~+/-2Oct||	2=Position|100|0|1|||	3=Mix|100|0|1|||	4=Level|100|0|1|||
+NR	0	Smart Gate	1=Threshold|100|0|1|||
+NR	1	Fast Gate	1=Threshold|100|0|1|||	2=Mode|1|0|1|I~II||
+CAB	0	Super Zep 1x6	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	1	Tweed Chap 1x8	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	2	Black Lux 1x12	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	3	Black Vint 1x12	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	4	Glacian 1x12	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	5	Bad Kitty 1x12	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	6	Voxy 1x12	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	7	Tweed Lux 1x12	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	8	Ace 20 1x12	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	9	UK G12M 1x12	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	10	Voxy 2x12	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	11	Emperor 2x12	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	12	Jazz Twin 2x12	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	13	Black Twin 2x12	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	14	Tweed Super 2x10	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	15	Boutique 2x12	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	16	Baseman 2x12	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	17	Superb 2x12	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	18	Superstar 2x12	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	19	Twin Rock 2x12	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	20	Bluesky 2x12	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	21	Baseman 4x10	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	22	UK Lead 4x12	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	23	UK Trad 4x12	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	24	UK Modern 4x12	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	25	UK Green 4x12	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	26	Eddie 4x12	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	27	Rector 4x12	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	28	Boger 4x12	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	29	Engle 4x12	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	30	Urban 4x12	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	31	Soloist 4x12	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	32	Tang 4x12	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	33	Hiway 4x12	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	34	UK Black 4x12	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	35	The Way 4x12	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	36	Dizzle 4x12	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	37	Triple 4x12	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	38	UK T75 4x12	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	39	US King 4x12	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	40	Adam 1x15	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	41	Worker 1x15	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	42	Flip Top 1x15	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	43	US Bass 2x10	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	44	Mark 2x10	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	45	Adam 4x10	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	46	Ampage 4x10	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	47	Worker 4x10	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	48	Hacker 4x12	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	49	Ampage 8x10	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	112	Dreadnought 1	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	113	Dreadnought 2	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	114	Orchestal	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	115	Jumbo	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	116	Hum Bird	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	117	Auditorium	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	118	Classical	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	119	Mandolin	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	120	Fretless Bass	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	121	Double Bass	1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	144		1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	145		1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	146		1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	147		1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	148		1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	149		1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	150		1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	151		1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	152		1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+CAB	153		1=Mic Type|10|0|1|Off~Dyn57~Dyn58~Dyn421~Dyn16~Dyn112~Dyn609~ConU67~Con87A~Con U87~Rib 121||	2=Volume|100|0|1|||	3=Position X|100|0|1|||	4=Position Y|100|0|1|||	5=Position Z|100|0|1|||	6=Low Cut|1981|0|1||| (код)	7=Hi Cut|1801|0|1||| (код)
+EQ	0	Guitar EQ 1	1=125Hz|100|-50|1|||	2=400Hz|100|-50|1|||	3=800Hz|100|-50|1|||	4=1.6kHz|100|-50|1|||	5=4kHz|100|-50|1|||	6=Volume|100|0|1|||
+EQ	1	Guitar EQ 2	1=100Hz|100|-50|1|||	2=500Hz|100|-50|1|||	3=1kHz|100|-50|1|||	4=3kHz|100|-50|1|||	5=6kHz|100|-50|1|||	6=Volume|100|0|1|||
+EQ	2	Bass EQ 1	1=33Hz|100|-50|1|||	2=150Hz|100|-50|1|||	3=600Hz|100|-50|1|||	4=2kHz|100|-50|1|||	5=8kHz|100|-50|1|||	6=Volume|100|0|1|||
+EQ	3	Bass EQ 2	1=50Hz|100|-50|1|||	2=120Hz|100|-50|1|||	3=400Hz|100|-50|1|||	4=800Hz|100|-50|1|||	5=4.5kHz|100|-50|1|||	6=Volume|100|0|1|||
+EQ	4	Para EQ	1=Band 1|35|50|10|||	2=Q 1|99|0.1|0.1|||	3=Gain 1|24|-12|1|||	4=Band 2|90|200|10|||	5=Q 2|99|0.1|0.1|||	6=Gain 2|24|-12|1|||	7=Band 3|90|1000|100|||	8=Q 3|99|0.1|0.1|||	9=Gain 3|24|-12|1|||	10=Band 4|110|5000|100|||	11=Q 4|99|0.1|0.1|||	12=Gain 4|24|-12|1|||	13=Lo Shelf|24|-12|1|||	14=Hi Shelf|24|-12|1|||	15=Volume|100|0|1|||
+EQ	5	Graphic EQ	1=31Hz|24|-12|1|||	2=63Hz|24|-12|1|||	3=125Hz|24|-12|1|||	4=250Hz|24|-12|1|||	5=500Hz|24|-12|1|||	6=1kHz|24|-12|1|||	7=2kHz|24|-12|1|||	8=4kHz|24|-12|1|||	9=8kHz|24|-12|1|||	10=16kHz|24|-12|1|||	11=Volume|100|0|1|||
+EQ	6	V-EQ	1=80Hz|100|-50|1|||	2=240Hz|100|-50|1|||	3=750Hz|100|-50|1|||	4=2.2kHz|100|-50|1|||	5=6.6kHz|100|-50|1|||
+DLY	0	Sweetie	1=Mix|100|0|1|||	2=Feedback|100|0|1|||	3=Time|3980|20|1||Sync| мс	4=Sync|1|0|1|Выкл~Вкл||	5=Trail|1|0|1|Выкл~Вкл||
+DLY	1	Recaller	1=Mix|100|0|1|||	2=Feedback|100|0|1|||	3=Time|3980|20|1||Sync| мс	4=Sync|1|0|1|Выкл~Вкл||	5=Trail|1|0|1|Выкл~Вкл||
+DLY	2	Pure Eko	1=Mix|100|0|1|||	2=Feedback|100|0|1|||	3=Time|3980|20|1||Sync| мс	4=Sync|1|0|1|Выкл~Вкл||	5=Trail|1|0|1|Выкл~Вкл||
+DLY	3	Analog Eko	1=Mix|100|0|1|||	2=Feedback|100|0|1|||	3=Time|3980|20|1||Sync| мс	4=Sync|1|0|1|Выкл~Вкл||	5=Trail|1|0|1|Выкл~Вкл||
+DLY	4	Mag Eko	1=Mix|100|0|1|||	2=Feedback|100|0|1|||	3=Time|3980|20|1||Sync| мс	4=Sync|1|0|1|Выкл~Вкл||	5=Trail|1|0|1|Выкл~Вкл||
+DLY	5	Tube Eko	1=Mix|100|0|1|||	2=Feedback|100|0|1|||	3=Time|3980|20|1||Sync| мс	4=Sync|1|0|1|Выкл~Вкл||	5=Trail|1|0|1|Выкл~Вкл||
+DLY	6	Backmask	1=Mix|100|0|1|||	2=Feedback|100|0|1|||	3=Time|1980|20|1||Sync| мс	4=Sync|1|0|1|Выкл~Вкл||	5=Trail|1|0|1|Выкл~Вкл||
+DLY	7	Ping Pong	1=Mix|100|0|1|||	2=Feedback|100|0|1|||	3=Time|3980|20|1||Sync| мс	4=Sync|1|0|1|Выкл~Вкл||	5=Trail|1|0|1|Выкл~Вкл||
+DLY	8	Multi Head	1=Mix|100|0|1|||	2=Feedback|100|0|1|||	3=Time|3980|20|1||Sync| мс	4=Tone|100|0|1|||	5=Mode|11|1|1|||	6=Sync|1|0|1|Выкл~Вкл||	7=Trail|1|0|1|Выкл~Вкл||
+DLY	9	Slapback	1=Mix|100|0|1|||	2=Feedback|100|0|1|||	3=Time|280|20|1||| мс	4=Trail|1|0|1|Выкл~Вкл||
+DLY	10	Vintage Rack	1=Mix|100|0|1|||	2=Feedback|100|0|1|||	3=Time|3980|20|1||Sync| мс	4=Mod|100|0|1|||	5=Tone|100|0|1|||	6=Sync|1|0|1|Выкл~Вкл||	7=Trail|1|0|1|Выкл~Вкл||
+DLY	11	Sweep Eko	1=Mix|100|0|1|||	2=Feedback|100|0|1|||	3=Time|3980|20|1||Time Sync| мс	4=Sweep Depth|100|0|1|||	5=Sweep Rate|100|0|1||Swp Sync|	6=Swp Sync|1|0|1|Выкл~Вкл||	7=Time Sync|1|0|1|Выкл~Вкл||	8=Trail|1|0|1|Выкл~Вкл||
+DLY	12	Trem Eko	1=Mix|100|0|1|||	2=Feedback|100|0|1|||	3=Time|3980|20|1||Time Sync| мс	4=Trem Depth|100|0|1|||	5=Trem Rate|100|0|1||Trem Sync|	6=Trem Sync|1|0|1|Выкл~Вкл||	7=Time Sync|1|0|1|Выкл~Вкл||	8=Trail|1|0|1|Выкл~Вкл||
+DLY	13	Lofi Eko	1=Mix|100|0|1|||	2=Feedback|100|0|1|||	3=Time|3980|20|1||Sync| мс	4=Bit|100|0|1|||	5=Krush|100|0|1|||	6=Sync|1|0|1|Выкл~Вкл||	7=Trail|1|0|1|Выкл~Вкл||
+DLY	14	Ring Eko	1=Dly Mix|100|0|1|||	2=Feedback|100|0|1|||	3=Time|3980|20|1||Sync| мс	4=Ring Mix|100|0|1|||	5=Freq|100|0|1|||	6=Tone|100|0|1|||	7=Sync|1|0|1|Выкл~Вкл||	8=Trail|1|0|1|Выкл~Вкл||
+DLY	15	Ekoverb	1=Dly Mix|100|0|1|||	2=Feedback|100|0|1|||	3=Time|3980|20|1||Sync| мс	4=Rvb Mix|100|0|1|||	5=Hi Cut|100|0|1|||	6=Decay|100|0|1|||	7=Sync|1|0|1|Выкл~Вкл||	8=Trail|1|0|1|Выкл~Вкл||
+DLY	16	2290 Mod	1=Mix|100|0|1|||	2=Feedback|100|0|1|||	3=Time|3980|20|1||Sync| мс	4=Mod Rate|990|0.1|0.01|||	5=Mod Depth|100|0|1|||	6=Phase Reverse|3|0|1|None~Left~Right~Both||	7=Low Cut|3|0|1|Off~100Hz~200Hz~400Hz||	8=High Cut|3|0|1|33kHz~8kHz~4kHz~2kHz||	9=Level|100|0|1|||	10=Sync|1|0|1|Выкл~Вкл||	11=Trail|1|0|1|Выкл~Вкл||
+RVB	0	Room	1=Mix|100|0|1|||	2=Pre Delay|100|0|1|||	3=Decay|100|0|1|||	4=Trail|1|0|1|Выкл~Вкл||
+RVB	1	Hall	1=Mix|100|0|1|||	2=Pre Delay|100|0|1|||	3=Decay|100|0|1|||	4=Trail|1|0|1|Выкл~Вкл||
+RVB	2	Church	1=Mix|100|0|1|||	2=Pre Delay|100|0|1|||	3=Decay|100|0|1|||	4=Trail|1|0|1|Выкл~Вкл||
+RVB	3	Plate	1=Mix|100|0|1|||	2=Decay|100|0|1|||	3=High Damp|100|0|1|||	4=Trail|1|0|1|Выкл~Вкл||
+RVB	4	Spring	1=Mix|100|0|1|||	2=Decay|100|0|1|||	3=Tone|100|0|1|||	4=Trail|1|0|1|Выкл~Вкл||
+RVB	5	Izumi	1=Mix|100|0|1|||	2=Decay|100|0|1|||	3=Trail|1|0|1|Выкл~Вкл||
+RVB	6	Northstar	1=Mix|100|0|1|||	2=Decay|100|0|1|||	3=Trail|1|0|1|Выкл~Вкл||
+RVB	7	Oceandeep	1=Mix|100|0|1|||	2=Decay|100|0|1|||	3=Trail|1|0|1|Выкл~Вкл||
+RVB	8	Sweet Space	1=Mix|100|0|1|||	2=Pre Delay|100|0|1|||	3=Decay|100|0|1|||	4=Lo End|100|-50|1|||	5=Hi End|100|-50|1|||	6=Trail|1|0|1|Выкл~Вкл||
+RVB	9	Shimmer	1=Mix|100|0|1|||	2=Pre Delay|100|0|1|||	3=Decay|100|0|1|||	4=Lo End|100|-50|1|||	5=Hi End|100|-50|1|||	6=Trail|1|0|1|Выкл~Вкл||
+RVB	10	Cloud	1=Mix|100|0|1|||	2=Pre Delay|100|0|1|||	3=Decay|100|0|1|||	4=Low Damp|100|0|1|||	5=Hi Damp|100|0|1|||	6=Mod|100|0|1|||	7=Trail|1|0|1|Выкл~Вкл||
